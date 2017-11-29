@@ -1,0 +1,24 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.apache.spark</groupId>
+        <artifactId>spark-parent_2.11</artifactId>
+        <version>2.2.0-SNAPSHOT</version>
+        <relativePath>../pom.xml</relativePath>
+    </parent>
+
+    <artifactId>scala_calllocation</artifactId>
+    <properties>
+        <sbt.project.name>calllocation</sbt.project.name>
+    </properties>
+    <packaging>jar</packaging>
+    <name>Scala CallLocation Plugin</name>
+    <url>https://github.com/jianyu-m/ScalaCallLocation</url>
+    <dependencies>
+        <dependency>
+            <groupId>org.scala-lang</groupId>
+            <artifactId>scala-reflect</artifactId>
+            <version>2.11.8</version>
+        </dependency>
+    </dependencies>
+</project>

@@ -1,3 +1,13 @@
+# PrivateBox
+
+PrivateBox is a privacy-preserving analytic system that combines
+information flow tracking and differential privacy for providing fine-grained information control and leakage prevention. It makes use of the observation that not all users demand the same high security guarantee for their data to improve usability of differential privacy.
+
+PrivateBox is designed for the dissertation of MSc in HKU CS. Design details
+can be found in the thesis.
+
+Building PrivateBox is as easy as building Kakute.
+
 # Kakute
 
 Kakute is the first Information Flow Tracking (IFT) system for big-data. It is built
